@@ -1,0 +1,1 @@
+export const REDIS_CONFIG_OPTIONS = Symbol('REDIS_CONFIG_OPTIONS');
