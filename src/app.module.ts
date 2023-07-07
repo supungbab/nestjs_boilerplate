@@ -5,6 +5,7 @@ import { SimpleQueueModule } from './simple-queue/simple-queue.module';
 import { CatsModule } from './cats/cats.module';
 import { APP_PIPE } from '@nestjs/core';
 import { CurrencyModule } from './currency/currency.module';
+import { StreamingModule } from './streaming/streaming.module';
 
 const envFile = (nodeEnv: string): string => {
   const file = {
@@ -37,6 +38,7 @@ const envFile = (nodeEnv: string): string => {
     SimpleQueueModule,
     CatsModule,
     CurrencyModule,
+    StreamingModule
   ],
   controllers: [],
   providers: [
