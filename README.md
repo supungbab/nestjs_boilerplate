@@ -37,7 +37,9 @@ src
 │       └── cat.schema.ts
 ├── currency            # feature module2 - 외부 API(환율 계산) 사용 예제 (/currency)
 │   └── ...
-└── simple-queue        # feature module3 - Redis 사용 예제 (/queue)
+├── simple-queue        # feature module3 - Redis 사용 예제 (/queue)
+│   └── ...
+└── streaming           # feature module4 - Streaming Vidio 연습
     └── ...
 
 test
